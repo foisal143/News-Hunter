@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+#catagoryContainer p,
+.details {
+  cursor: pointer;
+  user-select: none;
+}
+#catagoryContainer p:hover {
+  border-bottom: 1px solid aqua;
+}
+
+#catagoryContainer p:link,
+#catagoryContainer p:active {
+  color: aqua;
+}
+#profile {
+  width: 15%;
+}
+#textShort {
+  width: 40%;
+}
+.widthCss {
+  width: 25%;
+}
+@media (max-width: 600px) {
+  #profile {
+    width: 30%;
+  }
+  #textShort {
+    width: fit-content;
+  }
+  .widthCss {
+    width: fit-content;
+  }
+}
